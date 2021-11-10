@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 FragmentManager fm1 = getSupportFragmentManager();
                 Fragment_red fragmentRed = new Fragment_red();
                 fm1.beginTransaction().replace(R.id.contenidor1,fragmentRed).commit();
+                //patata
             }
         });
     }
